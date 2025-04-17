@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "iPhone 13",
+      "price": 19900000,
+      "description": "Điện thoại Apple chính hãng.",
+      "image": "img/dt1.jpg",
+      "stock": 15,
+      "categoryId": "1",
+      "specifications": {
+        "Màn hình": "6.1 inch OLED",
+        "Chip": "Apple A15 Bionic",
+        "RAM": "4GB",
+        "Bộ nhớ": "128GB"
+      },
+      "category": "Điện thoại"
+    },
+    {
+      "id": "p2",
+      "name": "Samsung Galaxy S23",
+      "price": 17900000,
+      "description": "Smartphone cao cấp từ Samsung.",
+      "image": "img/dt2.png",
+      "stock": 20,
+      "categoryId": "1",
+      "specifications": {
+        "Màn hình": "6.1 inch Dynamic AMOLED",
+        "Chip": "Snapdragon 8 Gen 2",
+        "RAM": "8GB",
+        "Bộ nhớ": "256GB"
+      },
+      "category": "Điện thoại"
+    },
+    {
+      "id": "p3",
+      "name": "MacBook Air M2",
+      "price": 28990000,
+      "description": "Laptop Apple hiệu năng cao.",
+      "image": "img/lt1.png",
+      "stock": 10,
+      "categoryId": "2",
+      "specifications": {
+        "Màn hình": "13.6 inch Retina",
+        "CPU": "Apple M2",
+        "RAM": "8GB",
+        "SSD": "256GB"
+      },
+      "category": "Laptop"
+    },
+    {
+      "id": "p4",
+      "name": "Asus ZenBook 14",
+      "price": 21900000,
+      "description": "Laptop mỏng nhẹ, hiệu suất ổn định.",
+      "image": "img/lt2.png",
+      "stock": 12,
+      "categoryId": "2",
+      "specifications": {
+        "Màn hình": "14 inch Full HD",
+        "CPU": "Intel Core i5-1240P",
+        "RAM": "16GB",
+        "SSD": "512GB"
+      },
+      "category": "Laptop"
+    },
+    {
+      "id": "p5",
+      "name": "Tai nghe Bluetooth",
+      "price": 590000,
+      "description": "Tai nghe không dây chất lượng cao.",
+      "image": "img/pk1.png",
+      "stock": 50,
+      "categoryId": "3",
+      "specifications": {
+        "Kết nối": "Bluetooth 5.0",
+        "Thời lượng pin": "20 giờ",
+        "Màu sắc": "Đen"
+      },
+      "category": "Phụ kiện"
+    },
+    {
+      "id": "p6",
+      "name": "Sạc nhanh 25W",
+      "price": 250000,
+      "description": "Sạc nhanh cho điện thoại Samsung, Oppo.",
+      "image": "img/pk2.png",
+      "stock": 100,
+      "categoryId": "3",
+      "specifications": {
+        "Công suất": "25W",
+        "Cổng sạc": "USB-C",
+        "Tương thích": "Samsung, Oppo, Xiaomi"
+      },
+      "category": "Phụ kiện"
+    },
+    {
+      "id": "p7",
+      "name": "Máy hút bụi mini",
+      "price": 850000,
+      "description": "Máy hút bụi cầm tay nhỏ gọn.",
+      "image": "img/dgd1.png",
+      "stock": 30,
+      "categoryId": "4",
+      "specifications": {
+        "Công suất": "120W",
+        "Dung tích": "0.5L",
+        "Chức năng": "Hút bụi khô và ướt"
+      },
+      "category": "Đồ gia dụng"
+    },
+    {
+      "id": "p8",
+      "name": "Quạt điều hòa",
+      "price": 3190000,
+      "description": "Quạt điều hòa không khí làm mát nhanh.",
+      "image": "img/dgd2.png",
+      "stock": 8,
+      "categoryId": "4",
+      "specifications": {
+        "Công suất": "80W",
+        "Dung tích bình nước": "6L",
+        "Diện tích làm mát": "15-20m²"
+      },
+      "category": "Đồ gia dụng"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Điện thoại",
+      "image": "img/cate1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "image": "img/cate2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Phụ kiện",
+      "image": "img/cate3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Đồ gia dụng",
+      "image": "img/cate4.jpg"
+    }
+  ]
+}
